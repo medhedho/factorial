@@ -30,6 +30,16 @@ class FactorialTest {
     }
 
     @Test
+    void factorial2() {
+        assertEquals(2, fact.factorial(2));
+    }
+
+    @Test
+    void factorial3() {
+        assertEquals(6, fact.factorial(3));
+    }
+
+    @Test
     void factorial4() {
         assertEquals(24, fact.factorial(4));
     }
