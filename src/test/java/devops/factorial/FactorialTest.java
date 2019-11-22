@@ -35,7 +35,7 @@ class FactorialTest {
     }
 
     @Test
-    void factorial2() {
+    void factorial3() {
         assertEquals(6, fact.factorial(3));
     }
 
